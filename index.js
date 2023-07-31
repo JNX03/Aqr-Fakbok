@@ -8,7 +8,7 @@ const token = 'Token'; //Token ของบอทดิสคอสคุณ
 
 let restart = false;
 
-const allowedChannel = '1135515881162678323';
+const allowedChannel = 'ChannelId'; //Id ของห้องที่คุณสามารถให้ใช้คำสั่งได้
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
