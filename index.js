@@ -9,6 +9,7 @@ const token = 'Token'; //Token ของบอทดิสคอสคุณ
 let restart = false;
 
 const allowedChannel = 'ChannelId'; //Id ของห้องที่คุณสามารถให้ใช้คำสั่งได้
+const keep_alive = require('./keep_alive.js')
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
