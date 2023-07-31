@@ -96,7 +96,7 @@ client.on('interactionCreate', async interaction => {
         const timestamp = Date.now();
 
         const embed = {
-          title: `ฝากบอก - AQUARIUS✨`, //Title ของ webhook
+          title: `title`, //Title ของ webhook
           color: `#${randomColor}`,
           description: text,
           image: { url: image },
@@ -106,8 +106,8 @@ client.on('interactionCreate', async interaction => {
         const webhookClient = new WebhookClient({ url: webhookUrl });
 
         webhookClient.send({
-          username: 'AQUARIUS BOT', //ชื่อของ webhook
-          avatarURL: 'https://cdn.discordapp.com/attachments/1013498613948764201/1135520526387908659/Untitled_design_7.png', //Icon ของ webhook
+          username: 'webhook name', //ชื่อของ webhook
+          avatarURL: 'image url', //Icon ของ webhook
           embeds: [embed]
         });
 
